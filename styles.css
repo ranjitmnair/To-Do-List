@@ -1,0 +1,84 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding-top: 0;
+    padding-left: 22.5%;
+    background-image: linear-gradient(yellow 0%, blueviolet 100%);
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+#counter{
+    text-align: right;
+    align-content: right;
+    padding-left: 1000px;
+}  
+#logo{
+    margin: 0;
+    
+    padding-left: 0;
+    padding-right: 35%;
+    padding-top: 0;
+    width: 20%;
+}
+#date{
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+}
+ h1{
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+    color: red;
+}
+
+.tb{
+    font-size: 18px;
+    text-align: center;
+    
+    background: none;
+    border: none;
+    border-bottom: 2px solid black;
+    width: 100%;
+    outline: none;
+}
+.heading{
+    text-align: center;
+    border: 3.5px solid #f17108;
+    align-self: center;
+    width: 70%;
+    margin: 0;
+    background-color: #f5fcc1;
+}
+.notcomp{
+    text-align: left;
+}
+.comp{
+    text-align: left;
+}
+.task{
+    width: 100%;
+    background-color:#2a7886;
+    margin: 3px 0;
+}
+.task i{
+    float: right;
+    margin-right: 5px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.notcomp .task{
+    font-weight: bold;
+    color: yellow;
+}
+.comp .task{
+    background-color: #ffb6b9;
+    text-decoration: line-through;
+    color: black;
+}
+h5{
+    text-align: center;
+    padding-left: 20%;
+    font-size: 80%;
+    color: chartreuse;
+}
