@@ -1,6 +1,6 @@
 var n= new Date();
 var days=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
-document.getElementById("date").innerHTML=days[n.getDay()-1]+", "+ " "+n.getDate()+"/"+(n.getMonth()+1)+"/"+n.getFullYear();
+document.getElementById("date").innerHTML=days[n.getDay()]+", "+ " "+n.getDate()+"/"+(n.getMonth()+1)+"/"+n.getFullYear();
 
 $(".tb").on("keyup",function(e){
     if(e.keyCode==13 && $(".tb").val()!="")  //enter code=13
